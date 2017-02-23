@@ -15,6 +15,7 @@ RUN \
 
 # Project
 # Bundle
+ADD ./.env .env
 ADD ./Gemfile Gemfile
 Add ./Gemfile.lock Gemfile.lock
 RUN bundle install
